@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A random quote generator",
+            "technologies": "JavaScript",
+            "live_link": "placeHolder",
+            "github_link": "https://github.com/Corey-Miller85/Random_Quote_Generator",
+            "img_urls": ["../static/images/randomQuote1.png", "../static/images/randomQuote2.png"]
+
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination Project",
+            "description": "placeholder1",
+            "technologies": "placeHolder1",
+            "live_link": "placeHolder1",
+            "github_link": "PlaceHolder1",
+            "img_urls": []
+
+        },
+        {
+            "id": 2,
+            "project_name": "placeholder2",
+            "description": "placeholder2",
+            "technologies": "placeHolder2",
+            "live_link": "placeHolder2",
+            "github_link": "PlaceHolder2",
+            "img_urls": []
+
+        }
+    ]
+}
