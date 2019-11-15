@@ -1,4 +1,6 @@
 extends layout.pug
 
 block content
-    h1= err
+    img(src='../static/images/404.png')
+    h1(class="error-h1")= err.message
+    pre= err.stack

@@ -9,9 +9,20 @@ app.get('/', (req, res) => {
     res.render('index');
 })
 
-app.get("/:id", (req, res) => {
-    res.render('project',{ project: dataJSON.projects[req.params.id]})
+app.get('/about', (req, res) => {
+    res.render('about');
 });
+
+app.get("/:id", (req, res) => {
+    if (dataJSON.projects[req.params.id] != undefined) {
+        res.render('project',{ 
+            project: dataJSON.projects[req.params.id]
+        })
+    } else  {
+        throw new Error('This page does not exist.')
+    }
+});
+
 
 app.use((req, res, next)=> {
     const err = new Error(`Page not found.`)

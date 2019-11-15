@@ -4,7 +4,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Corey Miller's Portfolio
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
@@ -14,7 +14,7 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='../static/images/headshot.jpg')
           .cell.auto
 
             //- Add your name here.
@@ -22,10 +22,12 @@ html(class="no-js" lang="en" dir="ltr")
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Description
+              | Full Stack Web Dev. That is currently learning code at TeamTreehouse.com.
+              | By day I am a security guard in Charlotte, NC, by night I am working on being the best web dev I can be. 
+              | Hoping one day to land a full time job as a web dev.
 
             //- Add about page route to the href below. 
-            a(href='') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -33,7 +35,7 @@ html(class="no-js" lang="en" dir="ltr")
           button.menu-icon(type='button', data-toggle='my-info')
 
           //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Corey Miller
       block content
         
 

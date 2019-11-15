@@ -4,17 +4,29 @@
             "id": 0,
             "project_name": "Random Quote Generator",
             "description": "A random quote generator",
-            "technologies": "JavaScript",
-            "live_link": "placeHolder",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://corey-miller85.github.io/Random_Quote_Generator/",
             "github_link": "https://github.com/Corey-Miller85/Random_Quote_Generator",
-            "img_urls": ["../static/images/randomQuote1.png", "../static/images/randomQuote2.png"]
+            "img_urls": [
+                "../static/images/randomQuoteGif.gif",
+                "../static/images/randomQuote1.png", 
+                "../static/images/randomQuote2.png"
+            ]
 
         },
         {
             "id": 1,
             "project_name": "Pagination Project",
             "description": "placeholder1",
-            "technologies": "placeHolder1",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
             "live_link": "placeHolder1",
             "github_link": "PlaceHolder1",
             "img_urls": []
@@ -22,11 +34,53 @@
         },
         {
             "id": 2,
-            "project_name": "placeholder2",
-            "description": "placeholder2",
-            "technologies": "placeHolder2",
-            "live_link": "placeHolder2",
-            "github_link": "PlaceHolder2",
+            "project_name": "Interactive Form",
+            "description": "An interactive form that is much like an e-commerce site, a mock shirt order form. Made with JQuery, It has full validation with the name, email, credit card and required fields, with CSS coloring for correct form submissions.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JQuery"
+            ],
+            "live_link": "https://corey-miller85.github.io/interactive-form/",
+            "github_link": "https://github.com/Corey-Miller85/interactive-form",
+            "img_urls": [
+                "../static/images/interactiveForm1.png", 
+                "../static/images/interactiveForm2.png",
+                "../static/images/interactiveForm3.png"
+            ]
+
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "A Letter Guessing game",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "placeHolder1",
+            "github_link": "https://github.com/Corey-Miller85/GameShow",
+            "img_urls": [
+                "../static/images/phraseHunter1.png",
+                "../static/images/phraseHunter2.png",
+                "../static/images/phraseHunter3.png"
+            ]
+
+        },
+        {
+            "id": 4,
+            "project_name": "Employee Listing",
+            "description": "A app that will fetches users from an api, sorts and makes them searchable.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "AJAX"
+            ],
+            "live_link": "placeHolder1",
+            "github_link": "PlaceHolder1",
             "img_urls": []
 
         }
