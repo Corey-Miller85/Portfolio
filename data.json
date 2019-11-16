@@ -12,7 +12,7 @@
             "live_link": "https://corey-miller85.github.io/Random_Quote_Generator/",
             "github_link": "https://github.com/Corey-Miller85/Random_Quote_Generator",
             "img_urls": [
-                "../static/images/randomQuoteGif.gif",
+                "../static/images/randomQuote3.png",
                 "../static/images/randomQuote1.png", 
                 "../static/images/randomQuote2.png"
             ]
@@ -21,7 +21,7 @@
         {
             "id": 1,
             "project_name": "Pagination Project",
-            "description": "placeholder1",
+            "description": "This is an app that takes in any number of student profiles and displays them in a condensed list that shows only 10 students per page. It calculates the number of pages required to show all students, as well as updates when searching with the search bar through the students to the correct number of pages.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -83,14 +83,13 @@
                 "CSS",
                 "AJAX"
             ],
-            "live_link": "placeHolder1",
+            "live_link": "https://corey-miller85.github.io/RandomUsers/",
             "github_link": "https://github.com/Corey-Miller85/RandomUsers",
             "img_urls": [
                 "../static/images/employee1.png", 
                 "../static/images/employee2.png", 
                 "../static/images/employee3.png"
             ]
-
         }
     ]
 }
