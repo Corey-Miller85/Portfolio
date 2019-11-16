@@ -27,9 +27,13 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "placeHolder1",
+            "live_link": "https://corey-miller85.github.io/listPagination/",
             "github_link": "https://github.com/Corey-Miller85/listPagination",
-            "img_urls": []
+            "img_urls": [
+                "../static/images/pagination1.jpg", 
+                "../static/images/pagination2.jpg",
+                "../static/images/pagination3.jpg"
+            ]
 
         },
         {
@@ -54,17 +58,17 @@
         {
             "id": 3,
             "project_name": "Phrase Hunter",
-            "description": "A Letter Guessing game",
+            "description": "A web app that is a phrase guessing game, written in JavaScript. This game has a start screen that loads a phrase to be guessed and letters are hidden with CSS, the player can use either the mouse or keyboard to select letters. If the letter is incorrect, the player will lose a 'heart'. After 5 hearts are depleted the game ends in a game over screen.",
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "placeHolder1",
+            "live_link": "https://corey-miller85.github.io/GameShow/",
             "github_link": "https://github.com/Corey-Miller85/GameShow",
             "img_urls": [
-                "../static/images/phraseHunter1.png",
                 "../static/images/phraseHunter2.png",
+                "../static/images/phraseHunter1.png",
                 "../static/images/phraseHunter3.png"
             ]
 
@@ -82,8 +86,8 @@
             "live_link": "placeHolder1",
             "github_link": "https://github.com/Corey-Miller85/RandomUsers",
             "img_urls": [
-                "../static/images/employee1.png",
-                "../static/images/employee2.png",
+                "../static/images/employee1.png", 
+                "../static/images/employee2.png", 
                 "../static/images/employee3.png"
             ]
 
