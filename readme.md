@@ -1,5 +1,4 @@
-** TODO **
-- Fill in placeholder information. 
+
 
 Corey Miller's Personal Portfolio
 A Site to show off my projects that I have worked on. 
