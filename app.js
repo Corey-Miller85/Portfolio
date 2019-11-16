@@ -13,7 +13,8 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get("/:id", (req, res) => {
+
+app.get("/projects/:id", (req, res) => {
     if (dataJSON.projects[req.params.id] != undefined) {
         res.render('project',{ 
             project: dataJSON.projects[req.params.id]

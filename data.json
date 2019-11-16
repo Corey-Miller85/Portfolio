@@ -2,8 +2,8 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Random Quote Generator",
-            "description": "A random quote generator",
+            "project_name": "Random Quote Project",
+            "description": "This is project was to only be Vanilla JavaScript, it took an object with a number of quotes plugged in and displays them in a browser with random colors for the background as well as the ‘next’ button. This was one of my first projects in JavaScript, and is the one that made me decide on learning JavaScript.",
             "technologies": [
                 "JavaScript",
                 "HTML",
