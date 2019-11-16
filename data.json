@@ -28,7 +28,7 @@
                 "CSS"
             ],
             "live_link": "placeHolder1",
-            "github_link": "PlaceHolder1",
+            "github_link": "https://github.com/Corey-Miller85/listPagination",
             "img_urls": []
 
         },
@@ -80,8 +80,12 @@
                 "AJAX"
             ],
             "live_link": "placeHolder1",
-            "github_link": "PlaceHolder1",
-            "img_urls": []
+            "github_link": "https://github.com/Corey-Miller85/RandomUsers",
+            "img_urls": [
+                "../static/images/employee1.png",
+                "../static/images/employee2.png",
+                "../static/images/employee3.png"
+            ]
 
         }
     ]
